@@ -1,7 +1,14 @@
 .input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
     background-color: aqua
+     height: 55px;
 }
 
 .input-group>.input-group-append>.btn, .input-group>.input-group-append>.input-group-text, .input-group>.input-group-prepend:first-child>.btn:not(:first-child), .input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child), .input-group>.input-group-prepend:not(:first-child)>.btn, .input-group>.input-group-prepend:not(:first-child)>.input-group-text {
     background-color: aquamarine
 }
+
+
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child):hover {
+  background-color: yellow;
+  
+          }
